@@ -8,118 +8,120 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="myStyle.css">
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 </style>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
-  <div class="w3-container">
-    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
-      <i class="fa fa-remove"></i>
-    </a>
-    <img src="Images/me.jpg" style="width:75%;" class="w3-round"><br><br>
-  </div>
-  <div class="w3-bar-block">
-    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding" style="font-size:18px"><i class="fa fa-gamepad fa-fw w3-margin-right"></i>PORTFOLIO</a> 
-    <a href="index.html#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding" style="font-size:18px"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
-    <a href="index.html#resume" onclick="w3_close()" class="w3-bar-item w3-button w3-padding" style="font-size:18px"><i class="fa fa-file-text fa-fw w3-margin-right"></i>RESUME</a>
-  </div>
-  <div class="w3-panel w3-large">
-    <a href="https://www.twitter.com/heroponwill">
-      <i class="fa fa-twitter w3-hover-opacity w3-margin-right" style="font-size:24px"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/willpbridges/">
-      <i class="fa fa-linkedin w3-hover-opacity w3-margin-right" style="font-size:24px"></i>
-    </a>
-    <a href="mailto:will.p.bridges@gmail.com">
-      <i class="fa fa-envelope w3-hover-opacity" style="font-size:24px"></i>
-    </a> 
-  </div>
-</nav>
-
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px">
-
-  <!-- Header -->
-  <header id="portfolio">
-    <a href="#"><img src="Images/me.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
-    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+  <!-- Sidebar/menu -->
+  <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
     <div class="w3-container">
-    <h1><b>Dogs Day</b></h1>
-    <h3>A heartwarming adventure game about man's best friend.</h3>
-    <div class="w3-section w3-bottombar">
+      <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+        <i class="fa fa-remove"></i>
+      </a>
+      <img src="Images/me.jpg" style="width:75%;" class="w3-round"><br><br>
     </div>
-  </header>
-  
-  <!-- Game Screenshots and Blurbs-->
-  <div class="w3-row-padding w3-margin-bottom">
-    <div class="w3-half w3-container w3-margin-top">
-      <video width="100%" height="100%" controls>
-        <source src="Dogs Day.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>    
+    <div class="w3-bar-block">
+      <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding" style="font-size:18px"><i class="fa fa-gamepad fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+      <a href="index.html#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding" style="font-size:18px"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+      <a href="index.html#resume" onclick="w3_close()" class="w3-bar-item w3-button w3-padding" style="font-size:18px"><i class="fa fa-file-text fa-fw w3-margin-right"></i>RESUME</a>
     </div>
-    <div class="w3-half w3-container w3-margin-bottom">
-      <h3>
-        <u>About the Game</u>
-      </h3>
-      <h5>
-        <i>Dogs Day</i> is a <b>2D narrative-driven adventure game</b>. You play as a reclusive PhD student who gets brought out of his shell after
-        meeting three lost dogs and helping them find their homes. After meeting each dog, you must <b>explore the map to find special items that will trigger
-        events</b> when brought to certain locations. The game ends when you realize the third dog, a goofy-looking street dog, belongs at home with you.
-      </h5>
+    <div class="w3-panel w3-large">
+      <a href="https://www.twitter.com/heroponwill">
+        <i class="fa fa-twitter w3-hover-opacity w3-margin-right" style="font-size:24px"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/willpbridges/">
+        <i class="fa fa-linkedin w3-hover-opacity w3-margin-right" style="font-size:24px"></i>
+      </a>
+      <a href="mailto:will.p.bridges@gmail.com">
+        <i class="fa fa-envelope w3-hover-opacity" style="font-size:24px"></i>
+      </a> 
     </div>
-  </div>
+  </nav>
 
-  <div class="w3-row-padding w3-margin-bottom">
-    <div class="w3-half w3-container w3-margin-top">
-      <img src="Images/dd3.png" alt="Dogs Day" style="width:100%">
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main" style="margin-left:300px">
+
+    <!-- Header -->
+    <header id="portfolio">
+      <a href="#"><img src="Images/me.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+      <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+      <div class="w3-container">
+        <h1><b>Dogs Day</b> | Unity, C#</h1>
+        <h3>A heartwarming adventure game about man's best friend.</h3>
+        <div class="w3-section w3-bottombar">
+        </div>
+      </header>
+
+      <!-- Game Screenshots and Blurbs-->
+      <div class="w3-row-padding w3-margin-bottom">
+        <div class="w3-half w3-container w3-margin-top">
+          <video width="100%" height="100%" controls>
+            <source src="Dogs Day.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>    
+          </div>
+          <div class="w3-half w3-container w3-margin-bottom">
+            <h3>
+              <u>About the Game</u>
+            </h3>
+            <h5>
+              <i>Dogs Day</i> is a <b>2D narrative-driven adventure game</b> made in Unity. You play as a reclusive PhD student who gets brought out of his shell after meeting three lost dogs and helping them find their homes. After meeting each dog, you must <b>explore the map to find special items that will trigger events</b> when brought to certain locations. The game ends when you realize the third dog, a goofy-looking street dog, belongs at home with you.
+            </h5>
+          </div>
+        </div>
+
+        <div class="w3-row-padding w3-margin-bottom">
+          <div class="w3-half w3-container w3-margin-top">
+            <img src="Images/dd3.png" alt="Dogs Day" style="width:100%">
+          </div>
+          <div class="w3-half w3-container w3-margin-bottom">
+            <h3>
+              <u>My Contributions</u>
+            </h3>
+            <h4>
+              <ul>
+                <li>Inventory UI scripting (C#)</li>
+                <li>Dog behavior scripting (C#)</li>
+                <li>Contributed to narrative and game design planning</li>
+              </ul>
+            </h4>
+          </div>
+        </div>
+
+        <div class="w3-row-padding">
+          <div class="w3-half w3-container w3-margin-top">
+            <img src="Images/dd4.png" alt="Dogs Day" style="width:100%">
+          </div>
+          <div class="w3-half w3-container w3-margin-bottom">
+            <h3>
+              <u>The Process</u>
+            </h3>
+            <h5>
+              <i>Dogs Day</i> was developed in 48 hours for the <b>2019 Global Game Jam</b>. The theme was "What Home Means To You," and all of my team members associated dogs with home. We spent Friday night planning and built the game over the rest of the weekend. My team included 3 programmers, 2 artists, and a writer. The game is unfinished, but we have worked individually on it since the jam, and everything is in place for the game to be finished.
+            </h5>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="w3-black w3-center w3-padding-24 w3-margin-top">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+
+      <!-- End page content -->
     </div>
-    <div class="w3-half w3-container w3-margin-bottom">
-      <h3>
-        <u>The Process</u>
-      </h3>
-      <h5>
-        <i>Dogs Day</i> was <b>developed in 48 hours for the 2019 Global Game Jam</b>. The theme was "What Home Means To You," and all of my team members associated dogs with home. On Friday night, we made a loose plan of the systems we would develop and what assets we would need. On Saturday, <b>three programmers (including myself) developed the game systems</b> while two artists produced our game's art and our writer wrote the script. On Sunday, we <b>fixed any remaining bugs and created a working build</b> of the game. The game is unfinished, but we have <b>worked individually on it since the jam</b>, and <b>everything is in place</b> for the game to be finished.
-    </div>
-  </div>
 
-  <div class="w3-row-padding">
-    <div class="w3-half w3-container w3-margin-top">
-      <img src="Images/dd4.png" alt="Dogs Day" style="width:100%">
-    </div>
-    <div class="w3-half w3-container w3-margin-bottom">
-      <h3>
-        <u>My Contributions</u>
-      </h3>
-      <h5>
-        This was one of my first Unity projects, and I learned a lot over the course of development. After being active during the brainstorming phase, I 
-        <b>developed the first version of our dog behavior script</b>, which determined how each dog would follow you throughout the game world. This script was later tweaked and then individualized for each dog based on their personalities. <b>My main task during the game jam was developing an inventory system</b>, in which items would be added to your inventory and then appear on the inventory screen. Players can move through the inventory with the directional keys, and the selected item is enlarged.
-      </h5>
-    </div>
-  </div>
-
-  </div>
-
-  <div class="w3-black w3-center w3-padding-24 w3-margin-top">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
-
-<!-- End page content -->
-</div>
-
-<script>
+    <script>
 // Script to open and close sidebar
 function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
 }
- 
+
 function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
 }
 </script>
 
